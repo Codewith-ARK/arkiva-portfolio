@@ -2,7 +2,7 @@ import React from 'react'
 import { LuPaintbrush, LuCodeXml, LuChevronRight } from "react-icons/lu";
 import Boxes from '@/components/Patterns/Boxes';
 import AnimatedTriangle from '@/components/AnimatedTriangle';
-import Services from '@/components/Sections/Services';
+// import Services from '@/components/Sections/Services';
 import Features from '@/components/Sections/Features';
 import Contact from '@/components/Sections/Contact';
 
@@ -79,7 +79,7 @@ export default function page() {
         </section>
       </div>
 
-      <Services />
+      {/* <Services /> */}
       <Features />
       <Contact />
     </>
