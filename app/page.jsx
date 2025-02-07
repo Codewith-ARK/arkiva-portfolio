@@ -5,6 +5,7 @@ import AnimatedTriangle from '@/components/AnimatedTriangle';
 // import Services from '@/components/Sections/Services';
 import Features from '@/components/Sections/Features';
 import Contact from '@/components/Sections/Contact';
+import Projects from '@/components/Sections/Projects';
 
 export default function page() {
   return (
@@ -39,21 +40,21 @@ export default function page() {
             <div className='w-[180px] relative right-10 aspect-square bg-blue-300 rounded-full'></div>
           </div>
           <div className='relative col-span-4 md:col-span-2 lg:col-span-1 row-span-2 flex flex-col justify-between p-4'>
-            <h4 className='font-bold text-4xl'>Mobile Responsive</h4>
-            <img className='z-10 relative top-20 rounded-md' src="/mobile.jpg" alt="brand logo" />
-            <div className='absolute bottom-0 bg-blue-600 blur-3xl w-[180px] h-[180px] -z-0'></div>
+            <h4 className='font-bold text-4xl'>Responsive First</h4>
+            <img className='z-10 absolute bottom-24 right-1 object-contain lg:h-[150px] w-full rounded-md scale-150' src="/img/responsive_web_design.png" alt="brand logo" />
+            <div className='absolute bottom-10 bg-gradient-to-r from-teal-400 to-rose-500 blur-3xl w-[320px] aspect-square lg:w-[180px] lg:h-[180px]'></div>
           </div>
 
           {/* Row 2 */}
           <div className='relative col-span-4 lg:col-span-2 lg:row-span-2 p-4 h-[400px] lg:h-full'>
             <h4 className='font-bold text-4xl lg:text-6xl'>Web Development</h4>
-            <img className='absolute bottom-0 -right-24 z-10 h-[280px]' src="/ux_designer_portfolio.png" alt="brand logo" />
-            <div className='absolute bottom-0 -left-8 bg-orange-600 blur-3xl w-[220px] h-[220px]'></div>
+            <img className='absolute bottom-0 -right-3 z-10 h-[280px] lg:h-[380px]' src="/img/web_development.png" alt="brand logo" />
+            <div className='absolute bottom-0 -left-8 bg-purple-300 blur-3xl w-[220px] h-[220px]'></div>
           </div>
           <div className='relative col-span-4 lg:col-span-2 lg:row-span-2 p-4 h-[400px] lg:h-full'>
             <h4 className='font-bold text-4xl lg:text-6xl z-50'>App Development</h4>
-            <img className='absolute -bottom-10 right-10 z-10 h-[320px] rounded-md' src="/usms_app.png" alt="brand logo" />
-            <div className='absolute bottom-32 right-0 bg-teal-600 blur-3xl w-[220px] h-[220px] -z-0'></div>
+            <img className='absolute bottom-0 scale-110 object-cover h-full lg:object-contain z-10 lg:h-[320px] w-full rounded-md' src="/img/app_development.png" alt="brand logo" />
+            <div className='absolute bottom-32 right-0 bg-purple-600 blur-3xl w-[220px] h-[220px] -z-0'></div>
           </div>
           <div className='single-row col-span-1 md:col-span-2 lg:col-span-1 flex justify-center items-center'><LuCodeXml className='w-16 h-16 md:w-32 md:h-32 stroke-2' /></div>
           <div className='relative col-span-3 lg:col-span-2 flex justify-center items-center p-4'>
@@ -81,6 +82,7 @@ export default function page() {
 
       {/* <Services /> */}
       <Features />
+      <Projects />  
       <Contact />
     </>
   )
