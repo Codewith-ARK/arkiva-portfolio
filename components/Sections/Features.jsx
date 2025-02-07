@@ -1,14 +1,14 @@
 import React from 'react'
 import SectionHeading from '../SectionHeading'
 import featuresData from '@/data/FeaturesCardData';
+import SectionSubHeading from '../SectionSubHeading';
 
 export default function Features() {
   return (
     <section id='services' className='px-4 py-20 flex flex-col justify-center items-center'>
       <SectionHeading text={"Features"} />
-      <p className='text-lg tracking-tight text-stone-700'>Unlock powerful features to elevate your digital presence</p>
-
-      <div id='features-container' className='mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+      <SectionSubHeading text={"Unlock powerful features to elevate your digital presence"}/>
+      <div id='features-container' className='mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3'>
         {featuresData?.map((item, index) => (
           <FeaturesCard
             icon={item.icon}

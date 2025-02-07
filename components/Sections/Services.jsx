@@ -2,11 +2,13 @@ import Link from 'next/link';
 import React from 'react'
 import { LuChevronRight, LuCheck } from "react-icons/lu";
 import SectionHeading from '../SectionHeading';
+import SectionSubHeading from '../SectionSubHeading';
 export default function Services() {
   return (
     <section id='services' className='px-4 py-20 flex flex-col justify-center items-center'>
       <SectionHeading text={"Services"} />
-      <p className='text-lg tracking-tight text-stone-700'>Find the right service for your business</p>
+      <SectionSubHeading text={"Find the right service for your business"} />
+      
       <section className='pt-6 grid grid-cols-1 lg:grid-cols-3 gap-4'>
         <ServiceCard
           icon={<img className='mt-6 h-[280px] relative left-32 group-hover:left-24 transition-all duration-500 ease-out' src='/ux_designer_portfolio.png' />}
