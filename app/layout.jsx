@@ -12,8 +12,9 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: "ARKiva - Web Design Agency",
-  description: "ARKiva - Elevate Your Digital Presence with Expert Web Design & Development",
+  title: "ARKiva - Software Development Agency",
+  description: "ARKiva - Elevate Your Digital Presence with Expert Web Design, App Design & Development",
+  keywords: "Full-Stack, Web-Development, Full Stack Web Development, ARKiva, ARKIVA, arkiva, web dev agency, web development, web development agency, app development, app development agency, arkiva web dev, front end development, backend development"
 };
 
 export default function RootLayout({ children }) {
