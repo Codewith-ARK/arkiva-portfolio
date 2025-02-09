@@ -23,11 +23,11 @@ export default function Features() {
 
 function FeaturesCard({ icon, title, desc }) {
   return (
-    <div className='px-6 py-10 bg-zinc-950 flex flex-col gap-3 rounded-md border border-stone-900'>
+    <div className='px-6 py-10 bg-neutral-900/80 flex flex-col gap-3 rounded-md border border-stone-900'>
       <div className='text-[28px]'>{icon}</div>
       <div>
         <h6 className='text-lg font-medium'>{title}</h6>
-        <p className='text-stone-600 text-sm'>{desc}</p>
+        <p className='text-neutral-600 text-sm'>{desc}</p>
       </div>
     </div>
   )

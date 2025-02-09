@@ -56,15 +56,15 @@ export default function Services() {
 function ServiceCard({ icon, title, desc, url, features }) {
   return (
     <div>
-      <div className='relative w-full h-[380px] lg:grayscale hover:grayscale-0 group bg-zinc-950 px-6 py-6 rounded-sm overflow-hidden flex flex-col gap-2 cursor-pointer transition-all ease-out'>
-        <Link className='link link-hover flex gap-1 items-center text-sm text-stone-600 group-hover:text-stone-500' href={"#"}>View Details <LuChevronRight className='relative left-0 group-hover:left-1 transition-all' size={18} /></Link>
+      <div className='relative w-full h-[380px] lg:grayscale hover:grayscale-0 group bg-neutral-900/80 px-6 py-6 rounded-sm overflow-hidden flex flex-col gap-2 cursor-pointer transition-all ease-out'>
+        <Link className='link link-hover flex gap-1 items-center text-sm text-neutral-600 group-hover:text-neutral-500' href={"#"}>View Details <LuChevronRight className='relative left-0 group-hover:left-1 transition-all' size={18} /></Link>
         <h2 className='text-2xl font-medium'>{title ? title : "Web Development"}</h2>
         {icon
           ? icon
           : <img className='bottom-0 -left-8' src="https://placehold.co/240" alt="web_development_service" />
         }
       </div>
-      <div className='bg-zinc-950'>
+      <div className='bg-neutral-900/80'>
         {features?.map((item, index) => <ServiceCardFeature text={item} key={index} />)}
       </div>
     </div>
