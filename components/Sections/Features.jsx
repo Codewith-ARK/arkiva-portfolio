@@ -6,7 +6,7 @@ import SectionSubHeading from '../SectionSubHeading';
 export default function Features() {
   return (
     <section id='services' className='px-4 py-20 flex flex-col justify-center items-center'>
-      <SectionHeading text={"Features"} />
+      <SectionHeading text={"Why Us?"} />
       <SectionSubHeading text={"Unlock powerful features to elevate your digital presence"}/>
       <div id='features-container' className='mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3'>
         {featuresData?.map((item, index) => (

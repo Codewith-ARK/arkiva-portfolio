@@ -4,7 +4,7 @@ export default function sitemap() {
     {
       url: `${baseUrl}/`,
       lastModified: new Date(),
-      changeFrequency: 'yearly',
+      changeFrequency: 'daily',
       priority: 1,
     },
     {
@@ -16,8 +16,8 @@ export default function sitemap() {
     {
       url: `${baseUrl}/blog`,
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.5,
+      changeFrequency: 'daily',
+      priority: 0.9,
     },
   ]
 }

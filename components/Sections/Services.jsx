@@ -15,38 +15,38 @@ export default function Services() {
       <SectionHeading text={"Services"} />
       <SectionSubHeading text={"Find the right service for your business"} />
 
-      <section className='pt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3'>
+      <section className='pt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3'>
         <ServiceCard
           icon={<FaCode
-            size={260}
-            className='absolute -right-3 bottom-0 opacity-70'
+            size={220}
+            className='absolute right-2 -bottom-3 opacity-70'
           />}
         />
         <ServiceCard
           title={"App Development"}
           icon={<HiOutlineDevicePhoneMobile
-            size={260}
-            className='absolute -right-12 bottom-1 stroke-1 opacity-70' />}
+            size={220}
+            className='absolute -right-10 -bottom-0 stroke-1 opacity-70' />}
         />
         <ServiceCard
           title={"Web Design"}
           icon={<TbTools
-            size={260}
-            className='absolute -right-12 bottom-1 stroke-1 opacity-70' />}
+            size={240}
+            className='absolute -right-4 -bottom-4 stroke-1 opacity-70' />}
         />
         <ServiceCard
           title={"SEO & Performance Optimization"}
           icon={<TbWorldSearch
             size={260}
-            className='absolute -right-6 bottom-1 stroke-1 opacity-70' />
+            className='absolute -right-4 -bottom-4 stroke-1 opacity-70' />
           }
         />
 
         <ServiceCard
           title={"WordPress & Shopify Development"}
           icon={<FaWordpressSimple
-            size={260}
-            className='absolute -right-12 bottom-1 stroke-1 opacity-70' />}
+            size={220}
+            className='absolute right-1 bottom-1 stroke-1 opacity-70' />}
         />
 
       </section>
@@ -57,8 +57,8 @@ export default function Services() {
 function ServiceCard({ icon, title, desc, url, features }) {
   return (
     <div>
-      <div className='relative w-full h-[380px] lg:grayscale hover:grayscale-0 group bg-neutral-900/80 px-6 py-6 rounded-sm overflow-hidden flex flex-col gap-2 cursor-pointer transition-all ease-out'>
-      <CardLink text={"View Details"} url={"#"}/>
+      <div className='relative w-full h-[380px] lg:grayscale hover:grayscale-0 group bg-neutral-900/80 hover:bg-neutral-900 px-6 py-6 rounded-sm overflow-hidden flex flex-col gap-2 cursor-pointer transition-all ease-out'>
+        <CardLink text={"View Details"} url={"#"} />
         <h2 className='text-2xl font-medium'>{title ? title : "Web Development"}</h2>
         {icon
           ? icon

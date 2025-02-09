@@ -6,6 +6,7 @@ import Contact from '@/components/Sections/Contact';
 import Projects from '@/components/Sections/Projects';
 import HeroGrid from '@/components/Sections/HeroGrid';
 import Image from 'next/image';
+import BlogPosts from '@/components/Sections/BlogPosts';
 
 export default function page() {
   return (
@@ -24,8 +25,8 @@ export default function page() {
             <div className='h-full w-[180px]'></div>
             <div className='h-full w-[180px]'></div>
           </div>
-          <Image width={48} height={48} unoptimized={true} className='w-12 z-10' src="/logo_light.png" alt="brand logo" />
-          <h1 className='text-6xl font-black z-10'>ARKiva</h1>
+          {/* <Image width={48} height={48} unoptimized={true} className='w-12 z-10' src="/logo_light.png" alt="brand logo" /> */}
+          {/* <h1 className='text-6xl font-black z-10'>ARKiva</h1> */}
           <p className='text-xl md:w-[460px] font-light tracking-wide z-10'>Designing Experiences, Developing Success. 🚀 Transforming ideas into powerful digital solutions.</p>
           <a href='#contact' className='z-10 btn btn-outline rounded-full'>Say Hi <LuChevronRight size={22} /></a>
         </div>
@@ -35,6 +36,7 @@ export default function page() {
       <Features />
       <Projects />  
       <Services />
+      <BlogPosts />
       <Contact />
     </>
   )
