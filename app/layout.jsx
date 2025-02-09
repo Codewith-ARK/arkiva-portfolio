@@ -1,5 +1,6 @@
 import { Geist, Inter } from "next/font/google";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const giest = Geist({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
         className={` ${giest.className} ${inter.className} antialiased bg-black text-white`}
       >
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
