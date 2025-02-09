@@ -2,6 +2,7 @@ import React from 'react'
 import SectionHeading from '../SectionHeading'
 import SectionSubHeading from '../SectionSubHeading'
 import projects from '@/app/data/ProjectData'
+import Image from 'next/image'
 
 export default function Projects() {
   return (
@@ -32,7 +33,7 @@ function ProjectCard({ title, desc, imgUrl, websiteUrl }) {
         <p className='text-stone-600 text-sm'>{desc}</p>
       </div>
       <div className=' w-full h-[280px] overflow-hidden rounded-2xl'>
-        <img className='h-full w-full object-contain' src={imgUrl} alt="project image" />
+        <Image width={500} height={320} loading='lazy' placeholder='blur' blurDataURL='https://placehold.co/10' className='h-full w-full object-contain' src={imgUrl} alt="project image" />
       </div>
     </div>
   )
