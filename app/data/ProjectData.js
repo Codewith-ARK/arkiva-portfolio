@@ -24,7 +24,8 @@ const projects = [
     title: "UX Designer Portfolio",
     description: "A UX Designer portfolio website that is NOT responsive.",
     category: "Portfolio",
-    imgUrl: "/ux_designer_portfolio.png"
+    url: "",
+    imgUrl: "/ux_designer_portfolio.png",
   },
 ];
 
