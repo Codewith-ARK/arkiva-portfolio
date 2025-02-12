@@ -1,4 +1,4 @@
-import ArrticleHeader from '@/components/Blog/ArrticleHeader';
+import ArticleHeader from '@/components/Blog/ArticleHeader';
 import ArticleSection from '@/components/Blog/ArticleSection';
 import ArticleSubheading from '@/components/Blog/ArticleSubheading';
 import ArticleWrapper from '@/components/Blog/ArticleWrapper';
@@ -7,7 +7,7 @@ import React from 'react';
 export default function page() {
   return (
     <ArticleWrapper>
-      <ArrticleHeader
+      <ArticleHeader
         title={"How Custom Software Development Can Transform Your Business"}
       />
       <ArticleSection>

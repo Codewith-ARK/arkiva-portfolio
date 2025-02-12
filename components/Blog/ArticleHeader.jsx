@@ -1,7 +1,7 @@
 import React from 'react'
 import ArticleTitle from './ArticleTitle'
 
-export default function ArrticleHeader({ title }) {
+export default function ArticleHeader({ title }) {
   return (
     <div className='relative h-[380px] overflow-clip rounded-lg border border-neutral-900'>
       <img src="/patterns/Frame 1.png" className='absolute blur-sm w-full h-full object-left object-cover' alt="backgroung image" />
