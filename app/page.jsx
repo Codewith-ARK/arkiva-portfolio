@@ -8,6 +8,7 @@ import HeroGrid from '@/components/Sections/HeroGrid';
 import Image from 'next/image';
 import BlogPosts from '@/components/Sections/BlogPosts';
 import StarBorder from '@/components/blocks/Animations/StarBorder/StarBorder';
+import Link from 'next/link';
 
 export default function page() {
   return (
@@ -29,13 +30,13 @@ export default function page() {
           </div>
           {/* <Image width={48} height={48} unoptimized={true} className='w-12 z-10' src="/logo_light.png" alt="brand logo" /> */}
           {/* <h1 className='text-6xl font-black z-10'>ARKiva</h1> */}
-          <h1 className='text-2xl lg:text-6xl text-center font-bold z-10'>
+          <h1 className='text-4xl lg:text-6xl text-center font-bold z-10'>
             Innovate<span className='text-red-600'>. </span>
             Elevate<span className='text-red-600'>. </span>
             Dominate<span className='text-red-600'>. </span>
           </h1>
-          <h2 className='text-xl font-medium z-10 lowercase'>Crafting Digital Experiences That Drive Success.</h2>
-          <a href='#contact' className='group z-10 btn btn-outline rounded-full text-white border-red-600 bg-red-600'>Let's Chat<LuChevronRight size={22} className='group-hover:translate-x-1 transition-all'/></a>
+          <h2 className='text-xl font-medium z-10 lowercase text-center'>Crafting Digital Experiences That Drive Success.</h2>
+          <Link href='#contact' className='group z-10 btn btn-outline rounded-full text-white border-red-600 bg-red-600'>Let's Chat<LuChevronRight size={22} className='group-hover:translate-x-1 transition-all'/></Link>
         </div>
         <HeroGrid />
       </div>
@@ -43,7 +44,7 @@ export default function page() {
       <Features />
       <Projects />
       <Services />
-      {/* <BlogPosts /> */}
+      <BlogPosts />
       <Contact />
     </>
   )
