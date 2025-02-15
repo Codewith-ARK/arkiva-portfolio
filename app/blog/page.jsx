@@ -29,7 +29,7 @@ function BlogPostCard({ title, desc, urlToPost, imageUrl, tags }) {
     <Link href={urlToPost ? urlToPost : "#"}>
       <div className='group bg-neutral-900/80 hover:bg-neutral-900 flex flex-col md:flex-row gap-4 p-4 rounded-md border border-stone-900'>
         {imageUrl
-          ? <Image width={380} height={240} className='rounded-md w-[380px] h-[240px] object-cover' src={`/blog/${imageUrl}`} alt={`${title} image.jpg`} />
+          ? <Image width={380} height={240} loading='lazy' placeholder='empty' className='rounded-md w-[380px] h-[240px] object-cover' src={`/blog/${imageUrl}`} alt={`${title} image.jpg`} />
           : <img className='rounded-md w-[380px] h-[240px] object-cover' src={imageUrl ? `/blog/${imageUrl}` : "https://placehold.co/380x240"} alt={`${title} image.jpg`} />
         }
         <div className='flex flex-col gap-6'>
