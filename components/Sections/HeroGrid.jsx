@@ -7,7 +7,7 @@ import Image from 'next/image';
 export default function HeroGrid() {
   return (
     <>
-      <section id='grid' className='grid grid-cols-4 md:grid-cols-6 grid-rows-4 gap-3 *:rounded-sm *:overflow-hidden *:bg-zinc-950'>
+      <section id='grid' className='grid grid-cols-4 md:grid-cols-6 grid-rows-4 gap-3 *:rounded-sm *:overflow-hidden *:bg-neutral-900/60'>
         {/* Row 1 */}
         <div className='col-span-4 md:col-span-6 lg:col-span-2 flex items-center justify-center'><p className='text-8xl font-black'>ARKiva</p></div>
         <div className='lg:single-row col-span-2 md:col-span-2 lg:col-span-1 flex items-center justify-center'><LuPaintbrush className='w-32 h-32 stroke-1' /></div>
