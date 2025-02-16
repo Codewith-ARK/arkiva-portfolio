@@ -36,7 +36,7 @@ export default function page() {
             Dominate<span className='text-red-600'>. </span>
           </h1>
           <h2 className='text-xl font-medium z-10 lowercase text-center'>Crafting Digital Experiences That Drive Success.</h2>
-          <Link href='#contact' className='group z-10 btn btn-outline rounded-full text-white border-red-600 bg-red-600'>Let's Chat<LuChevronRight size={22} className='group-hover:translate-x-1 transition-all'/></Link>
+          <Link href='#contact' className='group z-10 btn rounded-full text-white border-transparent bg-red-600 hover:bg-red-800'>Let's Chat<LuChevronRight size={22} className='group-hover:translate-x-1 transition-all'/></Link>
         </div>
         <HeroGrid />
       </div>

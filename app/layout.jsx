@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       <meta name="google-site-verification" content="7Sg-y85emZMlSdMGQNXvPZxt85SXUa36wnoOalQPN8k" />
       </head>
       <body
-        className={` ${giest.className} ${inter.className} antialiased bg-black text-white`}
+        className={` ${giest.className} ${inter.className} antialiased bg-black text-white relative`}
       >
         <Navbar />
         {children}
