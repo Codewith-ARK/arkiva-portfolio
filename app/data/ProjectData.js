@@ -21,11 +21,11 @@ const projects = [
     imgUrl: "/wedman_mockup.png",
   },
   {
-    title: "UX Designer Portfolio",
-    description: "A UX Designer portfolio website that is NOT responsive.",
-    category: "Portfolio",
-    url: "",
-    imgUrl: "/ux_designer_portfolio.png",
+    title: "Comforty",
+    description: "An E-commerce furniture store",
+    category: "E-Commerce",
+    url: "https://hackathon-template-08.vercel.app/",
+    imgUrl: "/comforty.png",
   },
 ];
 
