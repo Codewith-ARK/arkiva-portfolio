@@ -13,7 +13,7 @@ export default function Contact() {
         <div className='w-full md:block md:1/2 lg:w-1/3 py-10 p-4 md:px-10'>
           <h2 className='text-4xl font-semibold'>Let's Chat</h2>
           <p className='text-neutral-400'>Tell us about your vision, and we’ll handle the rest.</p>
-          <form method='post' action={"https://formsubmit.co/4d6c2573499e4ea054a3916c136adc14"} className='mt-4'>
+          <form method='post' action={"https://formsubmit.co/c88d53c6d9e5d870c6fc53244479bb4a"} className='mt-4'>
             <div className='flex gap-3'>
 
               <label className="form-control w-1/2">

@@ -1,11 +1,11 @@
 const projects = [
-  {
-    title: "Trip Advisory",
-    description: "A dummy trip advisory website that is NOT responsive.",
-    category: "Web Development",
-    url: "https://codewith-ark.github.io/landing-page/",
-    imgUrl: "/trip_advisory_mockup.png"
-  },
+  // {
+  //   title: "Trip Advisory",
+  //   description: "A dummy trip advisory website that is NOT responsive.",
+  //   category: "Web Development",
+  //   url: "https://codewith-ark.github.io/landing-page/",
+  //   imgUrl: "/trip_advisory_mockup.png"
+  // },
   {
     title: "USMS Student Portal",
     description: "A full-fledged students grievance portal for the students of University of Sufism and Modern Sciences, Bhitshah.",

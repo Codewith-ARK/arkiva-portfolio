@@ -12,7 +12,7 @@ export default function Projects() {
     <section id='projects' className='px-4 py-20 flex flex-col justify-center items-center'>
       <SectionHeading text={"Projects"} />
       <SectionSubHeading text={"Browse our best works"} />
-      <div className='mt-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3'>
+      <div className='mt-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-3'>
         {projects?.map((item, index) => (
           <ProjectCard
             title={item.title}

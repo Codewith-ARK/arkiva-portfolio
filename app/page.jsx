@@ -25,11 +25,11 @@ export default function page() {
             <div className='h-full w-[180px]'></div>
             <div className='h-full w-[180px]'></div>
           </div>
-          <h2 className='md:w-[550px] text-xl font-medium z-10 text-center'>
+          <h2 className='md:w-[550px] text-lg font-medium z-10 text-center'>
             <span className='mx-1 border-b-2 border-b-red-600 border-red-600'>
               Web Design
             </span>
-            and
+            &
             <span className='mx-1 border-b-2 border-b-red-600 border-red-600'>
               Web Development
             </span>
@@ -40,13 +40,15 @@ export default function page() {
             Elevate<span className='text-red-600'>. </span>
             Dominate<span className='text-red-600'>. </span>
           </h1>
-          <h2 className='md:w-[550px] text-lg font-medium z-10 text-center'>
+          <h2 className='md:w-[550px] text-base font-light z-10 text-center'>
             Crafting Digital Experiences That Drive Success.</h2>
           <Link href='#contact' className='group z-10 btn rounded-full text-white border-transparent bg-red-600 hover:bg-red-800'>Let's Chat<LuChevronRight size={22} className='group-hover:translate-x-1 transition-all' /></Link>
         </div>
         <HeroGrid />
       </div>
 
+      <Services />
+      <Projects />
       <Features />
       <Projects />
       <Services />
