@@ -7,6 +7,8 @@ import Projects from '@/components/Sections/Projects';
 import HeroGrid from '@/components/Sections/HeroGrid';
 import BlogPosts from '@/components/Sections/BlogPosts';
 import Link from 'next/link';
+import Testimonial from '@/components/Sections/Testimonial';
+import NewTestimonial from '@/components/Sections/NewTestimonial';
 
 export default function page() {
   return (
@@ -50,8 +52,8 @@ export default function page() {
       <Services />
       <Projects />
       <Features />
-      <Projects />
-      <Services />
+      {/* <Testimonial /> */}
+      <NewTestimonial />
       <BlogPosts />
       <Contact />
     </>
