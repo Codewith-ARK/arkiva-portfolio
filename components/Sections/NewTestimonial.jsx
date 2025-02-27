@@ -14,8 +14,8 @@ function TestimonialCard({ name, clientStatus, text, imgUrl }) {
   return (
     <div className="w-full h-full py-6 px-4 flex gap-3 bg-neutral-900/80 border border-stone-900 rounded-md">
       <div className="h-[58px] w-[58px] min-w-[58px] overflow-hidden bg-neutral-900/80 border border-stone-900 rounded-full flex-shrink-0">
-        {/* <img className="w-[58px] h-[58px] object-cover" src={imgUrl ? imgUrl : "https://avatar.iran.liara.run/public/boy"} alt={`${name}'s image`} /> */}
-        <Avatar name={`${name}`} variant='beam' />
+        <img className="w-[58px] h-[58px] object-cover" src={imgUrl ? imgUrl : "https://avatar.iran.liara.run/public/boy"} alt={`${name}'s image`} />
+        {/* <Avatar name={`${name}`} variant='beam' /> */}
       </div>
       <div>
         <p className="text-white font-semibold">{name}</p>
@@ -32,7 +32,7 @@ export default function NewTestimonial() {
     <section id='testimonial' className='py-20 flex flex-col justify-center items-center'>
       <SectionHeading text={"Testimonial"}/>
       <SectionSubHeading text={"What our clients say about us"}/>
-      <div className='mt-6 p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 even:translate-y-6 gap-3'>
+      <div className='mt-6 p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3'>
         {testimonials.map((item, index) => (
           <TestimonialCard
             name={item.name}

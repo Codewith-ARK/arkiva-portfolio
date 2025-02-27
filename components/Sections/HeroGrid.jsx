@@ -53,7 +53,7 @@ export default function HeroGrid() {
         <div className='hidden md:block col-span-4 md:col-span-2 lg:col-span-2'><Boxes /></div>
         <div className='col-span-4 md:col-span-2 lg:col-span-2 flex flex-col justify-center items-start p-4 gap-4'>
           <p className='text-lg font-medium'>"ARKiva helped us transform our digital presence. Highly recommended!"</p>
-          <p className='font-thin'>— John Doe, CEO of XYZ Corp.</p>
+          <p className='font-thin'>— Anas Ansari, Founder, Comforty.</p>
         </div>
       </section>
     </>
