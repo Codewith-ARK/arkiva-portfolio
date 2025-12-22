@@ -39,7 +39,7 @@ function ProjectCard({ title, desc, imgUrl, websiteUrl }) {
           <p className='text-neutral-600 text-sm'>{desc}</p>
         </div>
         <div className=' w-full h-[280px] overflow-hidden rounded-2xl'>
-          <Image width={500} height={320} loading='lazy' placeholder='blur' blurDataURL='https://placehold.co/10' className='h-full w-full object-contain' src={imgUrl} alt="project image" />
+          <Image width={500} height={320} loading='lazy' placeholder='blur' blurDataURL='https://placehold.co/10' className='h-full w-full object-cover rounded-md' src={imgUrl} alt="project image" />
         </div>
       </div>
     </Link>

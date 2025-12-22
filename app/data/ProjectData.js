@@ -6,6 +6,14 @@ const projects = [
   //   url: "https://codewith-ark.github.io/landing-page/",
   //   imgUrl: "/trip_advisory_mockup.png"
   // },
+    {
+    title: "Water Delivery Application",
+    description:
+      "A modern water delivery service bringing clean, affordable, and eco-friendly RO water right to your doorstep — anytime you need it.",
+    category: "Water Delivery App",
+    url: "https://play.google.com/store/apps/details?id=com.nareshjaipal.paniwalaapp",
+    imgUrl: "/paniwala.png",
+  },
   {
     title: "USMS Student Portal",
     description:
