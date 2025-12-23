@@ -1,10 +1,11 @@
 const testimonials = [
   {
     id: 1,
-    name: "James Walker",
-    clientStatus: "Senior Software Engineer",
+    name: "Muhammad Aneeb",
+    clientStatus: "Software Developer",
     text: "Absolutely fantastic experience! They delivered beyond my expectations, creating a website that is both stunning and high-performing. Communication was smooth, and they really understood my vision. Highly recommend!",
-    imgUrl: "https://randomuser.me/api/portraits/men/22.jpg",
+    imgUrl:
+      "https://static.vecteezy.com/system/resources/previews/047/733/682/non_2x/grey-avatar-icon-user-avatar-photo-icon-social-media-user-icon-vector.jpg",
   },
   {
     id: 2,
@@ -22,53 +23,70 @@ const testimonials = [
   },
   {
     id: 4,
-    name: "Sophia Mitchell",
-    clientStatus: "Marketing Specialist",
-    text: "Working with you was a great experience. You were very responsive and made the process easy. I would be happy to work with you again in the future.",
-    imgUrl: "https://randomuser.me/api/portraits/women/28.jpg",
+    name: "Mubeen Shaikh",
+    clientStatus: "Founder, PaniWala",
+    text: "It was truly an amazing experience working with ARKiva. They brought my vision to life exactly how I imagined it. They transformed my idea into a physical app, PaniWala and I am so excited to work with them in the future.",
+    imgUrl:
+      "https://static.vecteezy.com/system/resources/previews/047/733/682/non_2x/grey-avatar-icon-user-avatar-photo-icon-social-media-user-icon-vector.jpg",
   },
   {
-    id: 5,
-    name: "Daniel Harper",
-    clientStatus: "Small Business Owner",
-    text: "I was struggling to build an online presence for my business until I found them. They took care of everything—design, development, and SEO—and the results speak for themselves. More traffic, more leads, and a site I’m truly proud of!",
-    imgUrl: "https://randomuser.me/api/portraits/men/35.jpg",
+    id: 4,
+    name: "Muhammad Ammar Abbasi",
+    clientStatus: "-",
+    text: "Great service. Will work with them again in the near future. 10/10 Would recommend.",
+    imgUrl:
+      "https://static.vecteezy.com/system/resources/previews/047/733/682/non_2x/grey-avatar-icon-user-avatar-photo-icon-social-media-user-icon-vector.jpg",
   },
-  {
-    id: 6,
-    name: "Olivia Reynolds",
-    clientStatus: "Freelance Photographer",
-    text: "They created a stunning portfolio website for me that showcases my work beautifully. It’s fast, mobile-friendly, and easy for clients to navigate. Plus, their SEO work has helped me get noticed by more potential clients!",
-    imgUrl: "https://randomuser.me/api/portraits/women/45.jpg",
-  },
-  {
-    id: 7,
-    name: "David Scott",
-    clientStatus: "Tech Blogger",
-    text: "As someone who relies on their website for content distribution, I needed a reliable and optimized solution. They built an amazing site with excellent performance and SEO, making sure my blog reaches a wider audience effortlessly.",
-    imgUrl: "https://randomuser.me/api/portraits/men/50.jpg",
-  },
-  {
-    id: 8,
-    name: "Rachel Adams",
-    clientStatus: "Online Coach",
-    text: "They understood my brand and built a website that truly represents my coaching business. The design is elegant, functional, and converts visitors into clients. Their expertise in web design and SEO is unmatched!",
-    imgUrl: "https://randomuser.me/api/portraits/women/38.jpg",
-  },
-  {
-    id: 9,
-    name: "Christopher Bennett",
-    clientStatus: "E-commerce Consultant",
-    text: "I've worked with many developers, but these guys stand out. Their understanding of both technical and design aspects is top-notch. My Shopify store now runs faster, ranks higher, and looks fantastic!",
-    imgUrl: "https://randomuser.me/api/portraits/men/42.jpg",
-  },
-  {
-    id: 10,
-    name: "Jessica Parker",
-    clientStatus: "Influencer & Content Creator",
-    text: "I needed a stylish and responsive personal website, and they delivered exactly what I envisioned. The experience was seamless, and they were always available to tweak things to perfection. Highly recommended!",
-    imgUrl: "https://randomuser.me/api/portraits/women/32.jpg",
-  },
+
+  // {
+  //   id: 4,
+  //   name: "Sophia Mitchell",
+  //   clientStatus: "Marketing Specialist",
+  //   text: "Working with you was a great experience. You were very responsive and made the process easy. I would be happy to work with you again in the future.",
+  //   imgUrl: "https://randomuser.me/api/portraits/women/28.jpg",
+  // },
+  // {
+  //   id: 5,
+  //   name: "Daniel Harper",
+  //   clientStatus: "Small Business Owner",
+  //   text: "I was struggling to build an online presence for my business until I found them. They took care of everything—design, development, and SEO—and the results speak for themselves. More traffic, more leads, and a site I’m truly proud of!",
+  //   imgUrl: "https://randomuser.me/api/portraits/men/35.jpg",
+  // },
+  // {
+  //   id: 6,
+  //   name: "Olivia Reynolds",
+  //   clientStatus: "Freelance Photographer",
+  //   text: "They created a stunning portfolio website for me that showcases my work beautifully. It’s fast, mobile-friendly, and easy for clients to navigate. Plus, their SEO work has helped me get noticed by more potential clients!",
+  //   imgUrl: "https://randomuser.me/api/portraits/women/45.jpg",
+  // },
+  // {
+  //   id: 7,
+  //   name: "David Scott",
+  //   clientStatus: "Tech Blogger",
+  //   text: "As someone who relies on their website for content distribution, I needed a reliable and optimized solution. They built an amazing site with excellent performance and SEO, making sure my blog reaches a wider audience effortlessly.",
+  //   imgUrl: "https://randomuser.me/api/portraits/men/50.jpg",
+  // },
+  // {
+  //   id: 8,
+  //   name: "Rachel Adams",
+  //   clientStatus: "Online Coach",
+  //   text: "They understood my brand and built a website that truly represents my coaching business. The design is elegant, functional, and converts visitors into clients. Their expertise in web design and SEO is unmatched!",
+  //   imgUrl: "https://randomuser.me/api/portraits/women/38.jpg",
+  // },
+  // {
+  //   id: 9,
+  //   name: "Christopher Bennett",
+  //   clientStatus: "E-commerce Consultant",
+  //   text: "I've worked with many developers, but these guys stand out. Their understanding of both technical and design aspects is top-notch. My Shopify store now runs faster, ranks higher, and looks fantastic!",
+  //   imgUrl: "https://randomuser.me/api/portraits/men/42.jpg",
+  // },
+  // {
+  //   id: 10,
+  //   name: "Jessica Parker",
+  //   clientStatus: "Influencer & Content Creator",
+  //   text: "I needed a stylish and responsive personal website, and they delivered exactly what I envisioned. The experience was seamless, and they were always available to tweak things to perfection. Highly recommended!",
+  //   imgUrl: "https://randomuser.me/api/portraits/women/32.jpg",
+  // },
 ];
 
 export default testimonials;

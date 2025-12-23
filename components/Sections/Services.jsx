@@ -31,7 +31,7 @@ export default function Services() {
             className='absolute -right-10 -bottom-0 stroke-1 opacity-70' />}
         />
         <ServiceCard
-          title={"Web Design"}
+          title={"UI/UX Designing"}
           desc={"Stunning, user-centric designs that elevate your brand and drive engagement, blending creativity with functionality."}
           icon={<TbTools
             size={240}
@@ -46,13 +46,13 @@ export default function Services() {
           }
         />
 
-        <ServiceCard
+        {/* <ServiceCard
           title={"WordPress & Shopify Development"}
           desc={"Custom WordPress and Shopify solutions for businesses looking to scale with optimized, conversion-focused designs"}
           icon={<FaWordpressSimple
             size={220}
             className='absolute right-1 bottom-1 stroke-1 opacity-70' />}
-        />
+        /> */}
 
       </section>
     </section>

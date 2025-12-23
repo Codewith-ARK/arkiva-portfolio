@@ -42,11 +42,11 @@ export default function HeroGrid() {
         </div>
 
         <div className='single-row col-span-2 md:col-span-3 lg:col-span-1 flex flex-col justify-center items-center'>
-          <p className='text-6xl font-bold'>4+</p>
+          <p className='text-6xl font-bold'>3+</p>
           <p className='font-bold'>years experience</p>
         </div>
         <div className='single-row col-span-2 md:col-span-2 lg:col-span-1 flex justify-center items-center flex-col'>
-          <p className='text-6xl font-bold'>32</p>
+          <p className='text-6xl font-bold'>12</p>
           <p className='font-bold'>happy clients</p>
         </div>
         {/* Row 3 */}
